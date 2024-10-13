@@ -1,5 +1,6 @@
 'use client';
 
+import copy from "copy-to-clipboard";
 import Image from "next/image";
 import styles from "./page.module.css";
 import { useEffect, useState } from "react";
@@ -157,8 +158,8 @@ export default function Home() {
               {
                 message ?
                   <div className="row">
-                    <div className="col">
-                      {message}
+                    <div className="col text-center">
+                      <em>{message}</em> <button type="button" className="ms-3 btn btn-sm btn-outline-secondary" onClick={() => copy(message)}>Copy</button>
                     </div>
                   </div>
                   :
