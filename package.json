@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
+    "mongoose": "^8.7.0",
+    "next": "14.2.14",
+    "pinata": "^1.5.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.14"
+    "short-unique-id": "^5.2.0"
   },
   "devDependencies": {
     "eslint": "^8",

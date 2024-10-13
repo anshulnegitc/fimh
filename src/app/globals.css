@@ -30,13 +30,12 @@ body {
   margin: 0;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.ls-1 {
+  letter-spacing: 1px;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+label {
+  font-family: var(--font-geist-sans);
+  color: #333;
+  letter-spacing: 0.2px;
 }
