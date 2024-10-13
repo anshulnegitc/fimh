@@ -7,13 +7,6 @@ import connectDB from "../../utils/db"
 
 const uid = new ShortUniqueId({ length: 7 });
 
-export const config = {
-    api: {
-        bodyParser: false,
-    },
-};
-
-
 export async function POST(req) {
     try {
         await connectDB()
